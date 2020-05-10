@@ -1,0 +1,11 @@
+
+
+a:link {
+    color: rgb(148, 48, 48);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
