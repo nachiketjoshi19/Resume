@@ -1,11 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #34495e;
+}
 
+.box {
+    margin: auto;
+    width: 800px;
+    padding: 40px;
+    background: #3b6c83b0;
+}
 
-a:link {
-    color: rgb(148, 48, 48);
-  }
-  
-  /* visited link */
-  a:visited {
-    color: green;
-  }
-  
+.box-input {
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: 3px solid #46ccf5b0;
+    text-align: center;
+    margin: 20px;
+    color: brown;
+}
+
+hr {
+    border: 3px solid rgb(78, 196, 78);
+    border-radius: 5px
+}
+
+table {
+    background-color: #83a6c9;
+    border: 1px solid black;
+}
+
+::placeholder {
+    color: rgba(50, 170, 240, 0.637);
+}
